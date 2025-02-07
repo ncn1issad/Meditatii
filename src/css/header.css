@@ -1,0 +1,29 @@
+header {
+    width: 100%;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1100;
+    border-bottom: 2px solid var(--accent-color);
+}
+
+/* Header Title */
+header h1 {
+    font-size: 24px;
+}
+
+header button {
+    background-color: #888;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.5s, color 0.5s;
+}
