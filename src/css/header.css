@@ -11,6 +11,7 @@ header {
     left: 0;
     z-index: 1100;
     border-bottom: 2px solid var(--accent-color);
+    transition: background-color 0.5s, color 0.5s;
 }
 
 /* Header Title */
@@ -25,5 +26,4 @@ header button {
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
     cursor: pointer;
-    transition: background-color 0.5s, color 0.5s;
 }
