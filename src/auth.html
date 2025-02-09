@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autentificare</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="scripts/theme.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Title</h1>
+        <button id="theme-toggle"></button>
+    </header>
+    <main>
+        <div class="container">
+            <h2>Înregistrare</h2>
+            <label for="register-username"></label><input type="text" id="register-username" placeholder="Nume de utilizator">
+            <label for="register-email"></label><input type="email" id="register-email" placeholder="Adresă de email">
+            <label for="register-password"></label><input type="password" id="register-password" placeholder="Parolă">
+            <button id="register-button">Înregistrare</button>
+
+            <h2>Autentificare</h2>
+            <label for="login-email"></label><input type="email" id="login-email" placeholder="Adresă de email">
+            <label for="login-password"></label><input type="password" id="login-password" placeholder="Parolă">
+            <button id="login-button">Autentificare</button>
+
+            <p id="auth-error"></p>
+        </div>
+    </main>
+</body>
+</html>

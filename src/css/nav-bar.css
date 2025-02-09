@@ -1,7 +1,7 @@
 nav {
     width: 100%;
-    background-color: var(--seond-bg);
-    color: var(--seond-text);
+    background-color: var(--second-bg);
+    color: var(--second-text);
     display: flex;
     position: fixed;
     top: 75px;
@@ -27,7 +27,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: var(--seond-text);
+    color: var(--second-text);
     padding: 10px 15px;
     border-radius: 5px;
     transition: background-color 0.3s, color 0.25s;
